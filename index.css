@@ -1,0 +1,19 @@
+html { 
+    background: url(menu.svg) no-repeat center center fixed; 
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    
+  }
+
+.title {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+    font-family: 'Cinzel', serif;
+    
+}
