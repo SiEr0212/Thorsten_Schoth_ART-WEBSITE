@@ -1,5 +1,5 @@
 html { 
-    background: url(menu.svg) no-repeat center center fixed; 
+    /*background: url(menu.svg) no-repeat center center fixed;*/
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -16,4 +16,33 @@ html {
 	align-content: center;
     font-family: 'Cinzel', serif;
     
+}
+
+.moons_menu {
+    display: flex;
+}
+
+#upper_left {
+	position: absolute;
+	top: 0;
+	left: 0;
+    margin: 10px;
+}
+#upper_right {
+	position: absolute;
+	top: 0;
+	right: 0%;
+    margin: 10px;
+}
+#lower_left {
+	position: absolute;
+	bottom: 0%;
+	left: 0;
+    margin: 10px;
+}
+#lower_right {
+	bottom: 0%;
+	right: 0%;
+	position: absolute;
+    margin: 10px;
 }
