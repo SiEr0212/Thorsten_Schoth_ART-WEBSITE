@@ -1,49 +1,96 @@
-html { 
-    /*background: url(menu.svg) no-repeat center center fixed;*/
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    
-  }
+html {
+  /*background: url(menu.svg) no-repeat center center fixed;*/
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div {
+  width: 50%;
+}
 
 .title {
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: center;
-    font-family: 'Cinzel', serif;
-    padding: 10px;
-    
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  font-family: "Cinzel", serif;
+  padding: 10px;
 }
 
 .moons_menu {
-    display: flex;
+  display: flex;
+}
+
+.center_menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 #upper_left {
-	position: absolute;
-	top: 0;
-	left: 0;
-    margin: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
 }
 #upper_right {
-	position: absolute;
-	top: 0;
-	right: 0%;
-    margin: 10px;
+  position: absolute;
+  top: 0;
+  right: 0%;
+  margin: 10px;
 }
 #lower_left {
-	position: absolute;
-	bottom: 0%;
-	left: 0;
-    margin: 10px;
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  margin: 10px;
 }
 #lower_right {
-	bottom: 0%;
-	right: 0%;
-	position: absolute;
-    margin: 10px;
+  bottom: 0%;
+  right: 0%;
+  position: absolute;
+  margin: 10px;
 }
+
+#Outer-OL-Icon {
+	transition: all 0.2s ease-in-out
+}
+
+#Outer-OL-Icon:hover {
+	transform: scale(1.1);
+}
+
+#OL-Icon {
+	transition: all 0.2s ease-in-out
+}
+#OL-Icon:hover {
+	transform: translate(-25px, -25px);
+	opacity: 50%;
+	/* transform: scale(1.1); */
+}
+
+
+.grow {
+	
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+	/* transform: translate(10px, 10px); */
+  transform: scale(1.1);
+  
+  
+  
+  
+}
+
