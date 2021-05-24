@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="58.313263mm"
+   height="58.16626mm"
+   viewBox="0 0 58.313263 58.16626"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (1.0.2+r75+1)"
+   sodipodi:docname="UR-Icon.svg">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect4736"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       lpeversion="0" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.47745072"
+     inkscape:cx="-608.23705"
+     inkscape:cy="-422.75449"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0">
+    <sodipodi:guide
+       position="33.206446,139.66469"
+       orientation="1,0"
+       id="guide4606"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="17.124586,188.36248"
+       orientation="1,0"
+       id="guide4565"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-31.037724,164.12044"
+       orientation="1,0"
+       id="guide4567"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="68.289406,164.12044"
+       orientation="0,1"
+       id="guide4569"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="33.738216,179.90207"
+       orientation="0,1"
+       id="guide4571"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Mondphasen/ Punkte"
+     transform="translate(-148.28685,-200.82943)"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Äußere Kreise"
+     transform="translate(-148.28685,-200.82943)"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Kreisviertel"
+     style="display:inline"
+     transform="translate(-148.28685,-113.82943)">
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.25631;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 561.63867,430.84961 -0.55469,218.58398 a 218.58445,218.58445 0 0 0 154.91993,-63.82617 218.58445,218.58445 0 0 0 64.21875,-154.75781 z"
+       transform="scale(0.26458333)"
+       id="path4626" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Mond im Kreis"
+     style="display:inline"
+     transform="translate(-148.28685,-113.82943)">
+    <g
+       id="g4668"
+       transform="translate(-1.0583333,1.0583333)" />
+    <g
+       id="g4672" />
+    <path
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:2.77356;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 658.07617,500.16406 a 28.346457,28.346457 0 0 0 -28.14258,28.34571 28.346457,28.346457 0 0 0 28.34571,28.34765 28.346457,28.346457 0 0 0 28.34765,-28.34765 28.346457,28.346457 0 0 0 -28.34765,-28.34571 28.346457,28.346457 0 0 0 -0.20313,0 z"
+       transform="scale(0.26458333)"
+       id="path4738-3-85" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Schrift / Trajan Pro"
+     style="display:inline"
+     transform="translate(-148.28685,-113.82943)" />
+</svg>
