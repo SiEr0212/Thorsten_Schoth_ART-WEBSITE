@@ -133,31 +133,24 @@ html {
 }
 
 /* ---------------------------------------------------------- */
-.Inner-Text{
+.Inner-Text {
   color: black;
   position: absolute;
   z-index: 1;
   width: 200px;
   top: 100px;
   left: 90px;
-  font-size:2rem;
-  
+  font-size: 2rem;
 }
 .Inner-Tex:hover {
-  visibility:visible
+  visibility: visible;
 }
-
-
-
 
 div::before {
   content: attr(data-tooltip);
-  visibility: hidden;/* More Style Rules */
+  visibility: hidden; /* More Style Rules */
 }
 
 div:hover::before {
-  
   visibility: visible;
-
- 
 }
