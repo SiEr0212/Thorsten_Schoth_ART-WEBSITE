@@ -104,7 +104,30 @@ html {
 #OL-Icon:hover {
   transform: translate(-10px, -10px);
   opacity: 50%;
-  /* transform: scale(1.1); */
+}
+
+#OR-Icon {
+  transition: all 0.2s ease-in-out;
+}
+#OR-Icon:hover {
+  transform: translate(10px, -10px);
+  opacity: 50%;
+}
+
+#UL-Icon {
+  transition: all 0.2s ease-in-out;
+}
+#UL-Icon:hover {
+  transform: translate(-10px, 10px);
+  opacity: 50%;
+}
+
+#UR-Icon {
+  transition: all 0.2s ease-in-out;
+}
+#UR-Icon:hover {
+  transform: translate(10px, 10px);
+  opacity: 50%;
 }
 
 /* ---------------------------------------------------------- */
