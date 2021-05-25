@@ -137,7 +137,8 @@ html {
   color: black;
   position: absolute;
   z-index: 1;
-  width: 200px;
+  /* width: 200px;
+  height: 200px; */
   top: 100px;
   left: 90px;
   font-size: 2rem;
