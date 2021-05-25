@@ -146,11 +146,11 @@ html {
   visibility: visible;
 }
 
-div::before {
+.Inner-Text::before {
   content: attr(data-tooltip);
   visibility: hidden; /* More Style Rules */
 }
 
-div:hover::before {
+.Inner-Text:hover::before {
   visibility: visible;
 }
