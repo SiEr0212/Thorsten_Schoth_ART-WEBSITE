@@ -10,10 +10,6 @@ html {
   box-sizing: border-box;
 }
 
-div {
-  width: 50%;
-}
-
 .title {
   display: flex;
   flex-direction: column;
@@ -24,20 +20,10 @@ div {
   font-family: "Cinzel", serif;
   padding: 10px;
 }
-
+/* ----------------Moons---------------------------- */
 .moons_menu {
   display: flex;
 }
-
-.center_menu {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
-
 #upper_left {
   position: absolute;
   top: 0;
@@ -63,34 +49,62 @@ div {
   margin: 10px;
 }
 
-#Outer-OL-Icon {
-	transition: all 0.2s ease-in-out
+/* ---------------------Center Menu------------------*/
+
+.center_menu_container {
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 }
 
-#Outer-OL-Icon:hover {
-	transform: scale(1.1);
+.center_menu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: -1px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: -1px;
+}
+
+.Outer-Icons {
+  transition: all 0.2s ease-in-out;
+  margin: 1px;
+}
+
+.Outer-Icons:hover {
+  transform: scale(1.1);
 }
 
 #OL-Icon {
-	transition: all 0.2s ease-in-out
-}
-#OL-Icon:hover {
-	transform: translate(-25px, -25px);
-	opacity: 50%;
-	/* transform: scale(1.1); */
-}
-
-
-.grow {
-	
   transition: all 0.2s ease-in-out;
 }
-.grow:hover {
-	/* transform: translate(10px, 10px); */
-  transform: scale(1.1);
-  
-  
-  
-  
+#OL-Icon:hover {
+  transform: translate(-10px, -10px);
+  opacity: 50%;
+  /* transform: scale(1.1); */
 }
 
+/* ---------------------------------------------------------- */
