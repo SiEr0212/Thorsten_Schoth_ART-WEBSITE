@@ -92,6 +92,8 @@ html {
 .Outer-Icons {
   transition: all 0.2s ease-in-out;
   margin: 1px;
+  position: relative;
+  z-index: 0;
 }
 
 .Outer-Icons:hover {
@@ -131,3 +133,31 @@ html {
 }
 
 /* ---------------------------------------------------------- */
+.Inner-Text{
+  color: black;
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  top: 100px;
+  left: 90px;
+  font-size:2rem;
+  
+}
+.Inner-Tex:hover {
+  visibility:visible
+}
+
+
+
+
+div::before {
+  content: attr(data-tooltip);
+  visibility: hidden;/* More Style Rules */
+}
+
+div:hover::before {
+  
+  visibility: visible;
+
+ 
+}
