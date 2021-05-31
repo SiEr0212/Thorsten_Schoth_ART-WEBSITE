@@ -6,9 +6,9 @@ html {
   background-size: contain;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 .title {
   display: flex;
@@ -157,3 +157,32 @@ html {
 }
 
 /*---------------------------WORK-----------------------------------*/
+
+#work-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.work-images {
+  
+  height: auto;
+  width: auto;
+
+}
+
+#work_img1{
+  width: 300px;
+  object-fit: contain;
+  margin: 50px;
+  padding: 50px;
+}
+
+.work-text {
+width:200px;
+font-size: 1rem;
+font-family: "Cinzel", serif;
+}
