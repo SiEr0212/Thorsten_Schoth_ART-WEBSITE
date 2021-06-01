@@ -10,7 +10,7 @@ html {
   box-sizing: border-box;
 }
 
-.page-title {
+h1 {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -19,28 +19,53 @@ html {
   align-content: center;
   font-family: "Cinzel", serif;
   padding: 10px;
-  font-size: 18px;
+  font-size: 28px;
+}
+#page-title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  font-family: "Cinzel", serif;
+  padding: 25px;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+#bootstrap-overrides .page-title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  font-family: "Cinzel", serif;
+  padding: 10px !important;
+
+  font-size: 18px !important;
 }
 /* ----------------Moons---------------------------- */
 .moons_menu {
   display: flex;
 }
 #upper_left {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   margin: 15px;
   /* width: 3%; */
 }
 #upper_right {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0%;
   margin: 15px;
   /*   width: 3%; */
 }
 #lower_left {
-  position: absolute;
+  position: fixed;
   bottom: 0%;
   left: 0;
   margin: 15px;
@@ -49,7 +74,7 @@ html {
 #lower_right {
   bottom: 0%;
   right: 0%;
-  position: absolute;
+  position: fixed;
   margin: 15px;
   /* width: 3%; */
 }
@@ -178,7 +203,7 @@ html {
 }
 
 #work_img1 {
-  width: 300px;
+  width: 600px;
   object-fit: contain;
   margin: 50px;
   padding: 50px;
@@ -189,3 +214,15 @@ html {
   font-size: 1rem;
   font-family: "Cinzel", serif;
 }
+
+/* --------------------------------- */
+/* img {
+	width: 100%;
+  height: 500px;
+	object-fit: cover;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+} */
