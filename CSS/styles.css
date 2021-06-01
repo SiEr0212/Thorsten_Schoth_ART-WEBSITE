@@ -10,7 +10,7 @@ html {
   box-sizing: border-box;
 }
 
-.title {
+.page-title {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -19,6 +19,7 @@ html {
   align-content: center;
   font-family: "Cinzel", serif;
   padding: 10px;
+  font-size: 18px;
 }
 /* ----------------Moons---------------------------- */
 .moons_menu {
@@ -28,25 +29,29 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  margin: 10px;
+  margin: 15px;
+  /* width: 3%; */
 }
 #upper_right {
   position: absolute;
   top: 0;
   right: 0%;
-  margin: 10px;
+  margin: 15px;
+  /*   width: 3%; */
 }
 #lower_left {
   position: absolute;
   bottom: 0%;
   left: 0;
-  margin: 10px;
+  margin: 15px;
+  /*  width:3%; */
 }
 #lower_right {
   bottom: 0%;
   right: 0%;
   position: absolute;
-  margin: 10px;
+  margin: 15px;
+  /* width: 3%; */
 }
 
 /* ---------------------Center Menu------------------*/
