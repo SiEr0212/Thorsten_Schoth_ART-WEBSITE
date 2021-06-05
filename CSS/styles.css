@@ -34,18 +34,6 @@ h1 {
   font-size: 28px;
 }
 
-#bootstrap-overrides .page-title {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: center;
-  font-family: "Cinzel", serif;
-  padding: 10px !important;
-
-  font-size: 18px !important;
-}
 /* ----------------Moons---------------------------- */
 .moons_menu {
   display: flex;
@@ -187,17 +175,25 @@ h1 {
 }
 
 /*---------------------------WORK-----------------------------------*/
+/* #overview-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+} */
 
-#work-container {
+/* #work-container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   align-content: stretch;
-}
+} */
 
-.work-images {
+/* .work-images {
   height: auto;
   width: auto;
 }
@@ -213,11 +209,15 @@ h1 {
   width: 200px;
   font-size: 1rem;
   font-family: "Cinzel", serif;
-}
+} */
 
 /* --------------------------------- */
 .gallery-imgs {
   border: 1px solid;
+  height: auto;
+  width: auto;
+ 
+
   
 
 }
