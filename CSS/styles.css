@@ -181,3 +181,12 @@ h1 {
   object-fit: contain;
   margin: 12px;
 }
+
+.work-description {
+  font-family: "Cinzel", serif;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 600;
+ 
+
+}
