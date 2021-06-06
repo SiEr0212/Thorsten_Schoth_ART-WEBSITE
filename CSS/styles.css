@@ -34,20 +34,6 @@ h1 {
   font-weight: 600;
   font-size: 40px;
 }
-
-#bootstrap-overrides .page-ubertitle {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: center;
-  font-family: "Cinzel", serif;
-  padding: 25px;
-  font-weight: 600;
-  font-size: 40px;
-}
-
 /* ----------------Moons---------------------------- */
 .moons_menu {
   display: flex;
