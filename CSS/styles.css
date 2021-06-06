@@ -21,7 +21,8 @@ h1 {
   padding: 10px;
   font-size: 28px;
 }
-#page-title {
+
+#bootstrap-overrides .page-ubertitle {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
