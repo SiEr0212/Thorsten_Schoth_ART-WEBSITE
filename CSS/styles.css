@@ -71,11 +71,9 @@ h1 {
 
 /* ---------------------Center Menu------------------*/
 
-#bootsrap_override_work .col{
- padding: -12px;
-  
+.menu-container {
+  padding: 10px;
 }
-
 /* .center_menu_container {
   width: 100%;
   position: fixed;
@@ -134,6 +132,7 @@ h1 {
 
 #OL-Icon {
   transition: all 0.2s ease-in-out;
+/*   width:200px; */
 }
 
 #OL-Icon:hover {
@@ -143,6 +142,7 @@ h1 {
 
 #OR-Icon {
   transition: all 0.2s ease-in-out;
+  /* width: 200px; */
   
 }
 #OR-Icon:hover {
@@ -152,6 +152,7 @@ h1 {
 
 #UL-Icon {
   transition: all 0.2s ease-in-out;
+ /*  width:200px; */
 }
 #UL-Icon:hover {
   transform: translate(-10px, 10px);
@@ -160,6 +161,7 @@ h1 {
 
 #UR-Icon {
   transition: all 0.2s ease-in-out;
+ /*  width:200px; */
 }
 #UR-Icon:hover {
   transform: translate(10px, 10px);
