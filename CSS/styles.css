@@ -1,5 +1,7 @@
-html {
+html,
+body {
   /*background: url(menu.svg) no-repeat center center fixed;*/
+  height: 100%;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -69,16 +71,21 @@ h1 {
 
 /* ---------------------Center Menu------------------*/
 
-.center_menu_container {
+#bootsrap_override_work .col{
+ padding: -12px;
+  
+}
+
+/* .center_menu_container {
   width: 100%;
   position: fixed;
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
-}
+} 
+*/
 
-.center_menu {
+/* .center_menu {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -105,14 +112,21 @@ h1 {
   align-items: center;
   align-content: center;
   margin: -1px;
-}
+} */
 
-.Outer-Icons {
+
+/*.Outer-Icons {
   transition: all 0.2s ease-in-out;
   margin: 1px;
-  position: relative;
-  z-index: 0;
+  // display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  z-index: 0; //
 }
+*/
 
 .Outer-Icons:hover {
   transform: scale(1.1);
@@ -121,6 +135,7 @@ h1 {
 #OL-Icon {
   transition: all 0.2s ease-in-out;
 }
+
 #OL-Icon:hover {
   transform: translate(-10px, -10px);
   opacity: 50%;
@@ -128,6 +143,7 @@ h1 {
 
 #OR-Icon {
   transition: all 0.2s ease-in-out;
+  
 }
 #OR-Icon:hover {
   transform: translate(10px, -10px);
@@ -187,6 +203,4 @@ h1 {
   padding: 15px;
   font-size: 20px;
   font-weight: 600;
- 
-
 }
