@@ -209,11 +209,24 @@ h1 {
 
 /* ------------------Collectibles--------------- */
 
-#collectibles-overview-gallery {
+#collectibles-container {
+  width: 100%;
+}
+
+#SO6-EIS-PIC {
+  /* width: 40%*/
+} 
+
+.collectibles-description {
+  font-family: "Cinzel", serif;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 600;
   display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
 	align-content: stretch;
+  
 }
