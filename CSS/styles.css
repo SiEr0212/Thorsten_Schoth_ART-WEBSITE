@@ -6,22 +6,16 @@ body {
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
+  
 }
 
 * {
   box-sizing: border-box;
 }
 
-h1 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: center;
-  font-family: "Cinzel", serif;
-  padding: 10px;
-  font-size: 28px;
+#bootstrap_override_1  {
+  background: url(/img/blackgear.svg) no-repeat center center; 
+  z-index: 1
 }
 
 .page-ubertitle {
@@ -33,7 +27,9 @@ h1 {
   font-family: "Cinzel", serif;
   padding: 5vh;
   font-weight: 600;
-  font-size:5vh;
+  font-size: 4vh;
+
+  
 }
 /* ----------------Moons---------------------------- */
 .moons_menu {
@@ -68,14 +64,6 @@ h1 {
 }
 
 /* ---------------------Center Menu------------------*/
-#bootsrap_override_1 {
-  margin: 0; 
-  height: 100%;
-  overflow: hidden;
-}
-#bootsrap_override_1 .container{
-  width:100vw
-}
 
 /* .center_menu_container {
   width: 100%;
@@ -131,10 +119,12 @@ h1 {
 
 .Outer-Icons:hover {
   transform: scale(1.1);
+ 
 }
 
 #OL-Icon {
   transition: all 0.2s ease-in-out;
+  z-index: 2;
   
 /*   width:200px; */
 }
@@ -146,6 +136,7 @@ h1 {
 
 #OR-Icon {
   transition: all 0.2s ease-in-out;
+  z-index: 2;
   /* width: 200px; */
   
 }
@@ -156,6 +147,7 @@ h1 {
 
 #UL-Icon {
   transition: all 0.2s ease-in-out;
+  z-index: 2;
  /*  width:200px; */
 }
 #UL-Icon:hover {
@@ -165,6 +157,7 @@ h1 {
 
 #UR-Icon {
   transition: all 0.2s ease-in-out;
+  z-index: 2;
  /*  width:200px; */
 }
 #UR-Icon:hover {
