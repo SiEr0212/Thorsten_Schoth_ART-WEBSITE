@@ -6,24 +6,30 @@ body {
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
-  
 }
 
 * {
   box-sizing: border-box;
 }
 
-#bootstrap_override_1  {
-overflow: hidden;
+#bootstrap_override_1 {
+  overflow: hidden;
 }
 
 #blackgear {
   z-index: 0;
+}
+
+#infinity8 {
   display: block;
   margin: 0 auto;
-  
-  /* background-size: contain ; */
 }
+#da666 {
+  display: block;
+  margin: 0 auto;
+  width: 20%
+}
+
 
 .page-ubertitle {
   display: flex;
@@ -36,8 +42,6 @@ overflow: hidden;
   font-weight: 600;
   font-size: 4vh;
   z-index: 3;
-
-  
 }
 /* ----------------Moons---------------------------- */
 .moons_menu {
@@ -48,21 +52,18 @@ overflow: hidden;
   top: 0;
   left: 0;
   margin: 15px;
- 
 }
 #upper_right {
   position: fixed;
   top: 0;
   right: 0%;
   margin: 15px;
-  
 }
 #lower_left {
   position: fixed;
   bottom: 0%;
   left: 0;
   margin: 15px;
-  
 }
 #lower_right {
   bottom: 0%;
@@ -111,7 +112,6 @@ overflow: hidden;
   margin: -1px;
 } */
 
-
 /*.Outer-Icons {
   transition: all 0.2s ease-in-out;
   margin: 1px;
@@ -127,14 +127,13 @@ overflow: hidden;
 
 .Outer-Icons:hover {
   transform: scale(1.1);
- 
 }
 
 #OL-Icon {
   transition: all 0.2s ease-in-out;
   z-index: 2;
-  
-/*   width:200px; */
+
+  /*   width:200px; */
 }
 
 #OL-Icon:hover {
@@ -146,7 +145,6 @@ overflow: hidden;
   transition: all 0.2s ease-in-out;
   z-index: 2;
   /* width: 200px; */
-  
 }
 #OR-Icon:hover {
   transform: translate(10px, -10px);
@@ -156,7 +154,7 @@ overflow: hidden;
 #UL-Icon {
   transition: all 0.2s ease-in-out;
   z-index: 2;
- /*  width:200px; */
+  /*  width:200px; */
 }
 #UL-Icon:hover {
   transform: translate(-10px, 10px);
@@ -166,7 +164,7 @@ overflow: hidden;
 #UR-Icon {
   transition: all 0.2s ease-in-out;
   z-index: 2;
- /*  width:200px; */
+  /*  width:200px; */
 }
 #UR-Icon:hover {
   transform: translate(10px, 10px);
@@ -220,7 +218,7 @@ overflow: hidden;
 
 #SO6-EIS-PIC {
   /* width: 40%*/
-} 
+}
 
 .collectibles-description {
   font-family: "Cinzel", serif;
@@ -228,10 +226,9 @@ overflow: hidden;
   font-size: 20px;
   font-weight: 600;
   display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: stretch;
-  
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
 }
