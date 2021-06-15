@@ -24,7 +24,7 @@ h1 {
   font-size: 28px;
 }
 
-#bootstrap_override_1 h1  {
+.page-ubertitle {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
