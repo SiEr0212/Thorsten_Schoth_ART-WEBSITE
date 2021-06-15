@@ -14,8 +14,15 @@ body {
 }
 
 #bootstrap_override_1  {
-  background: url(/img/blackgear.svg) no-repeat center center; 
-  z-index: 1
+overflow: hidden;
+}
+
+#blackgear {
+  z-index: 0;
+  display: block;
+  margin: 0 auto;
+  
+  /* background-size: contain ; */
 }
 
 .page-ubertitle {
@@ -28,6 +35,7 @@ body {
   padding: 5vh;
   font-weight: 600;
   font-size: 4vh;
+  z-index: 3;
 
   
 }
