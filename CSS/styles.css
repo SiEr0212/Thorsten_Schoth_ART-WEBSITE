@@ -24,17 +24,16 @@ h1 {
   font-size: 28px;
 }
 
-.page-ubertitle {
+#bootstrap_override_1 h1  {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: flex-start;
   align-items: center;
   align-content: center;
   font-family: "Cinzel", serif;
-  padding: 25px;
+  padding: 5vh;
   font-weight: 600;
-  font-size: 40px;
+  font-size:5vh;
 }
 /* ----------------Moons---------------------------- */
 .moons_menu {
@@ -45,35 +44,39 @@ h1 {
   top: 0;
   left: 0;
   margin: 15px;
-  /* width: 3%; */
+ 
 }
 #upper_right {
   position: fixed;
   top: 0;
   right: 0%;
   margin: 15px;
-  /*   width: 3%; */
+  
 }
 #lower_left {
   position: fixed;
   bottom: 0%;
   left: 0;
   margin: 15px;
-  /*  width:3%; */
+  
 }
 #lower_right {
   bottom: 0%;
   right: 0%;
   position: fixed;
   margin: 15px;
-  /* width: 3%; */
 }
 
 /* ---------------------Center Menu------------------*/
-
-.menu-container {
-  padding: 10px;
+#bootsrap_override_1 {
+  margin: 0; 
+  height: 100%;
+  overflow: hidden;
 }
+#bootsrap_override_1 .container{
+  width:100vw
+}
+
 /* .center_menu_container {
   width: 100%;
   position: fixed;
@@ -132,6 +135,7 @@ h1 {
 
 #OL-Icon {
   transition: all 0.2s ease-in-out;
+  
 /*   width:200px; */
 }
 
