@@ -30,6 +30,19 @@ body {
   width: 20%;
 }
 
+.page-ubertitle-home {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  font-family: "Cinzel", serif;
+  margin: 5px;
+  padding: 2vh;
+  font-weight: 600;
+  font-size: 3.8vh;
+  z-index: 3;
+}
 .page-ubertitle {
   display: flex;
   flex-direction: column;
@@ -123,6 +136,60 @@ body {
 }
 
 /* ---------------------------------------------------------- */
+.img__wrap {
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.img__description {
+ /*  position: relative; */
+  /*  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 2vh; */
+  font-size: 2rem;
+  /*   background: rgba(29, 106, 154, 0.72); */
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 0;
+ 
+
+  /* transition effect. not necessary */
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+#bootstrap_override_1 #work-hover-title {
+  text-decoration: none;
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  z-index: 4;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 4.5vh;
+ 
+}
+#bootstrap_override_1 #work-hover-title {
+  text-decoration: none;
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  z-index: 4;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 4.5vh;
+ 
+}
+
 .Inner-Text {
   color: black;
   position: absolute;
@@ -152,7 +219,6 @@ body {
   border: 1px solid black;
   object-fit: contain;
   margin-bottom: 25px;
-  
 }
 
 .work-description {
@@ -175,7 +241,7 @@ body {
 
 .collectibles-description {
   font-family: "Cinzel", serif;
-  padding: 15px;
+  padding: 45px;
   font-size: 20px;
   font-weight: 600;
   display: flex;
@@ -184,4 +250,8 @@ body {
   justify-content: center;
   align-items: center;
   align-content: stretch;
+}
+
+#collectibles-pages-title {
+  padding: 50px;
 }
