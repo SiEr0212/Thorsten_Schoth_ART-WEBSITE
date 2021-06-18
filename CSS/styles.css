@@ -231,13 +231,17 @@ body {
 
 /* ------------------Collectibles--------------- */
 
-#collectibles-container {
-  /* width: 100%; */
-}
+/* #collectibles-container {
+  width: 100%;
+} */
 
 #SO6-EIS-PIC {
   /*  width: 60vw;
   object-fit: cover; */
+  height: 80vh;
+  border: 1px solid black;
+  object-fit: contain;
+  
 }
 
 .collectibles-description {
@@ -255,4 +259,14 @@ body {
 
 #collectibles-pages-title {
   padding: 50px;
+}
+
+#eis-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+
 }
