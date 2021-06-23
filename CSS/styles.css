@@ -94,8 +94,8 @@ body {
 }
 
 #OL-Icon {
-  transition: all 0.2s ease-in-out;
-  z-index: 2;
+  transition: all 0.2s linear;
+  z-index: 5;
 
   /*   width:200px; */
 }
@@ -106,8 +106,8 @@ body {
 }
 
 #OR-Icon {
-  transition: all 0.2s ease-in-out;
-  z-index: 2;
+  transition: all 0.2s linear;
+  z-index: 5;
   /* width: 200px; */
 }
 #OR-Icon:hover {
@@ -116,8 +116,8 @@ body {
 }
 
 #UL-Icon {
-  transition: all 0.2s ease-in-out;
-  z-index: 2;
+  transition: all 0.2s linear;
+  z-index: 5;
   /*  width:200px; */
 }
 #UL-Icon:hover {
@@ -126,8 +126,8 @@ body {
 }
 
 #UR-Icon {
-  transition: all 0.2s ease-in-out;
-  z-index: 2;
+  transition: all 0.2s linear;
+  z-index: 5;
   /*  width:200px; */
 }
 #UR-Icon:hover {
@@ -136,6 +136,8 @@ body {
 }
 
 /* ---------------------------------------------------------- */
+
+/* Menu animation on index.html */
 .img__wrap {
  /*  position: relative;
   height: 200px;
@@ -158,7 +160,7 @@ body {
  
 
   /* transition effect. not necessary */
-  transition: all 0.2s ease-in-out
+/*   transition: all 0s linear */
 }
 
 .img__wrap:hover .img__description {
@@ -170,15 +172,16 @@ body {
   font-family: "Cinzel", serif;
   font-size: 2.6vh;
   font-weight: 600;
-  z-index: 4;
+  z-index: 0;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding-top: 4.5vh;
+  /* padding-top: 3.5vh; */
+  transition-delay:0.4s;
  
 }
-#bootstrap_override_1 #work-hover-title {
+/* #bootstrap_override_1 #work-hover-title {
   text-decoration: none;
   font-family: "Cinzel", serif;
   font-weight: 500;
@@ -190,29 +193,7 @@ body {
   padding-top: 4.5vh;
  
 }
-
-.Inner-Text {
-  color: black;
-  position: absolute;
-  z-index: 1;
-  /* width: 200px;
-  height: 200px; */
-  top: 100px;
-  left: 90px;
-  font-size: 2rem;
-}
-.Inner-Tex:hover {
-  visibility: visible;
-}
-
-.Inner-Text::before {
-  content: attr(data-tooltip);
-  visibility: hidden; /* More Style Rules */
-}
-
-.Inner-Text:hover::before {
-  visibility: visible;
-}
+ */
 
 /*---------------------------WORK-----------------------------------*/
 
