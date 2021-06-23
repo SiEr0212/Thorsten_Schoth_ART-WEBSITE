@@ -250,7 +250,8 @@ body {
 /* -------CONTACT-FORM---------------------------- */
 
 #fcf-form {
-  display:block;
+  display:flexbox;
+  
 }
 
 .fcf-body {
@@ -266,7 +267,9 @@ body {
   padding-bottom: 10px;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
-  max-width: 80%;
+  max-width: 100%;
+  
+  
 }
 
 .fcf-form-group {
@@ -292,7 +295,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color:black;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -357,14 +360,14 @@ label.fcf-label {
 
 .fcf-btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color:#3C3C3C;
+  border-color:#495057;
 }
 
 .fcf-btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #495057;
+  border-color: #495057;
 }
 
 .fcf-btn-primary:focus, .fcf-btn-primary.focus {
@@ -392,4 +395,9 @@ label.fcf-label {
 
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
   width: 100%;
+}
+
+#bootstrap-overrides #form_margin {
+  margin-left: 3vw;
+  margin-right: 3vw;
 }

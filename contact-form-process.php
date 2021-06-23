@@ -68,8 +68,17 @@ if (isset($_POST['Email'])) {
 ?>
 
     <!-- include your success message below -->
+    <br>
+    <br>
 
-    Thank you for contacting us. We will be in touch with you very soon.
+    <h1 style="text-align:center;">Thank you for contacting me. </h1>
+</br>
+   <h1 style="text-align:center;"> I will be in touch with you very soon.</h1>
+   <br>
+   
+   <h2 style="text-align:center;"><a href="./index.html">Back</a></h2>
+
+   
 
 <?php
 }
