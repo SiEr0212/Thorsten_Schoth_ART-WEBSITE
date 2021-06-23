@@ -401,3 +401,20 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   margin-left: 3vw;
   margin-right: 3vw;
 }
+
+/* -----------------VITA---------------------------------------------- */
+
+.vita-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  font-family: "Cinzel", serif;
+  margin: 5px;
+  padding: 10vh;
+  font-weight: 600;
+  font-size: 2vh;
+  z-index: 3;
+  
+}
