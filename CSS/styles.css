@@ -219,9 +219,9 @@ body {
 
 /* ------------------Collectibles--------------- */
 
-/* #collectibles-container {
-  width: 100%;
-} */
+#collectibles-container {
+  width: 80%;
+}
 
 #SO6-EIS-PIC {
   /*  width: 60vw;
