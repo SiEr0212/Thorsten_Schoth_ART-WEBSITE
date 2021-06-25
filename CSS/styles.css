@@ -12,6 +12,22 @@ body {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Trajan Pro Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Trajan Pro Regular"),
+    url("../fonts/TrajanPro-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Trajan Pro Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Trajan Pro Bold"),
+    url("../fonts/TrajanPro-Bold.woff") format("woff");
+}
+
 #bootstrap_override_1 {
   overflow: hidden;
 }
@@ -36,7 +52,7 @@ body {
   flex-wrap: nowrap;
   align-items: center;
   align-content: center;
-  font-family: "Cinzel", serif;
+  font-family: Trajan Pro Regular, serif; /* "Cinzel", serif; */
   margin: 5px;
   padding: 2vh;
   font-weight: 600;
@@ -49,7 +65,7 @@ body {
   flex-wrap: nowrap;
   align-items: center;
   align-content: center;
-  font-family: "Cinzel", serif;
+  font-family: Trajan Pro Regular, serif; /* "Cinzel", serif; */
   margin: 5px;
   padding: 2vh;
   font-weight: 600;
@@ -139,23 +155,20 @@ body {
 
 /* Menu animation on index.html */
 .img__wrap {
- /*  position: relative;
+  /*  position: relative;
   height: 200px;
   width: 257px; */
 }
 
 .img__description {
- 
   font-size: 2rem;
   color: black;
   visibility: hidden;
   opacity: 0;
   z-index: 0;
-  
- 
 
   /* transition effect. not necessary */
-/*   transition: all 0s linear */
+  /*   transition: all 0s linear */
 }
 
 .img__wrap:hover .img__description {
@@ -164,7 +177,7 @@ body {
 }
 #bootstrap_override_1 .hover-title {
   text-decoration: none;
-  font-family: "Cinzel", serif;
+  font-family: Trajan Pro Regular, serif; /* "Cinzel", serif; */
   font-size: 2.6vh;
   font-weight: 600;
   z-index: 0;
@@ -173,8 +186,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   /* padding-top: 3.5vh; */
-  transition-delay:0.4s;
- 
+  transition-delay: 0.4s;
 }
 /* #bootstrap_override_1 #work-hover-title {
   text-decoration: none;
@@ -199,7 +211,7 @@ body {
 }
 
 .work-description {
-  font-family: "Cinzel", serif;
+  font-family: Trajan Pro Regular, serif; /* "Cinzel", serif; */
   padding: 15px;
   font-size: 20px;
   font-weight: 600;
@@ -217,11 +229,10 @@ body {
   height: 80vh;
   border: 1px solid black;
   object-fit: contain;
-  
 }
 
 .collectibles-description {
-  font-family: "Cinzel", serif;
+  font-family: Trajan Pro Regular, serif; /* "Cinzel", serif; */
   padding: 45px;
   font-size: 20px;
   font-weight: 600;
@@ -244,19 +255,17 @@ body {
   justify-content: center;
   align-items: center;
   align-content: stretch;
-
 }
 
 /* -------CONTACT-FORM---------------------------- */
 
 #fcf-form {
-  display:flexbox;
-  
+  display: flexbox;
 }
 
 .fcf-body {
   margin: 0;
-  font-family: "Cinzel", serif;
+  font-family: Trajan Pro Regular, serif; /* "Cinzel", serif */
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5;
@@ -268,8 +277,6 @@ body {
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   max-width: 100%;
-  
-  
 }
 
 .fcf-form-group {
@@ -295,7 +302,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color:black;
+  color: black;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -308,7 +315,8 @@ body {
   border: 1px solid #313131;
 }
 
-select.fcf-form-control[size], select.fcf-form-control[multiple] {
+select.fcf-form-control[size],
+select.fcf-form-control[multiple] {
   height: auto;
 }
 
@@ -339,12 +347,13 @@ label.fcf-label {
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .fcf-btn {
-      transition: none;
+    transition: none;
   }
 }
 
@@ -353,15 +362,16 @@ label.fcf-label {
   text-decoration: none;
 }
 
-.fcf-btn:focus, .fcf-btn.focus {
+.fcf-btn:focus,
+.fcf-btn.focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .fcf-btn-primary {
   color: #fff;
-  background-color:#3C3C3C;
-  border-color:#495057;
+  background-color: #3c3c3c;
+  border-color: #495057;
 }
 
 .fcf-btn-primary:hover {
@@ -370,14 +380,16 @@ label.fcf-label {
   border-color: #495057;
 }
 
-.fcf-btn-primary:focus, .fcf-btn-primary.focus {
+.fcf-btn-primary:focus,
+.fcf-btn-primary.focus {
   color: #fff;
   background-color: #0069d9;
   border-color: #0062cc;
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
-.fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
+.fcf-btn-lg,
+.fcf-btn-group-lg > .fcf-btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -389,11 +401,13 @@ label.fcf-label {
   width: 100%;
 }
 
-.fcf-btn-block+.fcf-btn-block {
+.fcf-btn-block + .fcf-btn-block {
   margin-top: 0.5rem;
 }
 
-input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
+input[type="submit"].fcf-btn-block,
+input[type="reset"].fcf-btn-block,
+input[type="button"].fcf-btn-block {
   width: 100%;
 }
 
@@ -416,5 +430,4 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   font-weight: 600;
   font-size: 2vh;
   z-index: 3;
-  
 }
