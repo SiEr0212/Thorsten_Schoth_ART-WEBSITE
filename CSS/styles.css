@@ -55,8 +55,8 @@ body {
   font-family: Trajan Pro Regular, serif; /* "Cinzel", serif; */
   margin: 5px;
   padding: 2vh;
-  font-weight: 600;
-  font-size: 3.8vh;
+  font-weight: 800;
+  font-size: 3.4vh;
   z-index: 3;
 }
 .page-ubertitle {
@@ -69,7 +69,7 @@ body {
   margin: 5px;
   padding: 2vh;
   font-weight: 600;
-  font-size: 4vh;
+  font-size: 3.4vh;
   z-index: 3;
 }
 /* ----------------Moons---------------------------- */
@@ -208,7 +208,7 @@ body {
   border: 1px solid black;
   object-fit: contain;
   margin-bottom: 25px;
-  /* height: 80vh; */
+  height: 80vh;
 }
 
 .work-description {
@@ -243,7 +243,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   align-content: stretch;
 }
