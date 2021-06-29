@@ -193,7 +193,7 @@ body {
 
 .gallery-imgs {
   border: 1px solid black;
-  object-fit: cover;
+  object-fit: contain;
   margin-bottom: 25px;
   max-height: 80vh;
   /* height: 80vh; */
