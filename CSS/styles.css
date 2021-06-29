@@ -188,22 +188,9 @@ body {
   /* padding-top: 3.5vh; */
   transition-delay: 0.4s;
 }
-/* #bootstrap_override_1 #work-hover-title {
-  text-decoration: none;
-  font-family: "Cinzel", serif;
-  font-weight: 500;
-  z-index: 4;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding-top: 4.5vh;
- 
-}
- */
 
 /*---------------------------WORK-----------------------------------*/
-/* ----hier um die bilder kleiner zu machen--- */
+
 .gallery-imgs {
   border: 1px solid black;
   object-fit: cover;
@@ -341,7 +328,7 @@ select.fcf-form-control[multiple] {
 }
 
 textarea.fcf-form-control {
-  font-family: "Cinzel", serif;
+  font-family: Trajan Pro Regular, serif;
   height: auto;
 }
 
@@ -444,7 +431,7 @@ input[type="button"].fcf-btn-block {
   flex-wrap: nowrap;
   align-items: center;
   align-content: center;
-  font-family: "Cinzel", serif;
+  font-family: Trajan Pro Regular, serif;
   margin: 5px;
   padding: 10vh;
   font-weight: 600;
