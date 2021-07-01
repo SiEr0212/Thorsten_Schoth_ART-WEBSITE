@@ -223,23 +223,7 @@ body {
   font-weight: 500;
   padding-left: 10px;
   margin-bottom: 40px;
-
 }
-
-@media (max-width: 800px) {
-  /* CSS that should be displayed if width is equal to or less than 800px goes here */
-  #live_by_the_sun-title {
-    margin-top: 14vw;
-    }
-  .page-ubertitle {
-    margin-top: 14vw;
-    }
-
-    .page-ubertitle-home {
-      margin-top: 14vw;
-      }
-}
-
 
 /* ------------------Collectibles--------------- */
 
@@ -454,4 +438,20 @@ input[type="button"].fcf-btn-block {
   font-weight: 600;
   font-size: 2vh;
   z-index: 3;
+}
+
+/* ------------------media querys ------------------------------------ */
+
+@media (max-width: 800px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  #live_by_the_sun-title {
+    margin-top: 14vw;
+    }
+  .page-ubertitle {
+    margin-top: 14vw;
+    }
+
+    .page-ubertitle-home {
+      margin-top: 14vw;
+      }
 }
