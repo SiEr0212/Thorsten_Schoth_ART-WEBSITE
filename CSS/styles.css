@@ -257,19 +257,24 @@ body {
   justify-content: center;
   align-items: center;
   align-content: stretch;
-
 }
 
 /* -------------------VITA------------------------- */
 
 .vita-img {
   max-height: 100vh;
-  
-
+  max-width: 45vw;
+  margin-top: 3vh;
 }
 
-.vita-text {font-family: Trajan Pro Regular, serif;}
-
+.vita-text {
+  font-family: Trajan Pro Regular, serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+#vita-img-text-right{
+  margin-left: 1px;
+}
 /* -------CONTACT-FORM---------------------------- */
 
 .page-ubertitle-thanks {
@@ -303,7 +308,6 @@ body {
 
   /* padding: 10px; */
 }
-
 
 #fcf-form {
   display: flexbox;
@@ -484,12 +488,12 @@ input[type="button"].fcf-btn-block {
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
   #live_by_the_sun-title {
     margin-top: 14vw;
-    }
+  }
   .page-ubertitle {
     margin-top: 14vw;
-    }
+  }
 
-    .page-ubertitle-home {
-      margin-top: 14vw;
-      }
+  .page-ubertitle-home {
+    margin-top: 14vw;
+  }
 }
