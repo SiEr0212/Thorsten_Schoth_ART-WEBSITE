@@ -265,24 +265,33 @@ body {
   max-height: 100vh;
   max-width: 45vw;
   margin-top: 3vh;
-  
 }
 
 #vita-text-right-title {
   font-family: Trajan Pro Regular, serif;
   font-size: 28px;
   font-weight: 600;
-  
 }
 .vita-text {
   font-family: Trajan Pro Regular, serif;
   font-size: 20px;
   font-weight: 600;
   margin-top: 3vh;
+ /*  padding: 10px; */
+ padding: 8px;
+
 }
-#vita-img-text-right{
- /*  margin-left: 1px; */
+#vita-img-text-right {
+  /*  margin-left: 1px; */
 }
+
+#download-text-vita {
+  font-size: 26px;
+  margin-top: 40px;
+  padding: 40px;
+}
+
+
 /* -------CONTACT-FORM---------------------------- */
 
 .page-ubertitle-thanks {
@@ -477,7 +486,7 @@ input[type="button"].fcf-btn-block {
 /* -----------------VITA---------------------------------------------- */
 
 .vita-text {
-/*   display: flex;
+  /*   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
@@ -505,18 +514,22 @@ input[type="button"].fcf-btn-block {
     margin-top: 14vw;
   }
 
-  .vita-text-right-title{
-    font-size: 10px;
+  #vita-text-right-title {
+    font-size: 18px;
   }
 
-  .vita-text{
+  #download-text-vita {
+    font-size: 18px;
+  }
+
+  .vita-text {
     font-size: 14px;
+    padding: 15px;
   }
 
-
-.vita-img {
-
+  .vita-img {
+    max-height: 100vh;
+    max-width: 90vw;
+    margin-top: 0.5vh;
+  }
 }
-
-}
-
