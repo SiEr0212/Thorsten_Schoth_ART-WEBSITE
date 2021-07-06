@@ -257,7 +257,18 @@ body {
   justify-content: center;
   align-items: center;
   align-content: stretch;
+
 }
+
+/* -------------------VITA------------------------- */
+
+.vita-img {
+  max-height: 100vh;
+  
+
+}
+
+.vita-text {font-family: Trajan Pro Regular, serif;}
 
 /* -------CONTACT-FORM---------------------------- */
 
