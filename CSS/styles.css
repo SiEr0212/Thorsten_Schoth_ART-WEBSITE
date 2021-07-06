@@ -244,12 +244,6 @@ body {
   padding: 45px;
   font-size: 20px;
   font-weight: 600;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: left;
-  align-items: center;
-  align-content: stretch;
 }
 
 #collectibles-pages-title {
@@ -266,6 +260,39 @@ body {
 }
 
 /* -------CONTACT-FORM---------------------------- */
+
+.page-ubertitle-thanks {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  font-family: Trajan Pro Regular, serif; /* "Cinzel", serif; */
+  margin: 5px;
+  padding: 2vh;
+  font-weight: 600;
+  font-size: 3.4vh;
+  z-index: 3;
+}
+
+.contact-form-text {
+  font-family: Trajan Pro Regular, serif; /* "Cinzel", serif; */
+  /*  padding-left: 8vw;
+  padding-right: 30px; */
+  /*  padding-bottom: 50px; */
+  /* padding: 2%; */
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  /*  margin-left: 40% */
+
+  /*  box-sizing:initial;
+  width: 0px; */
+  /*   min-width: 40%; */
+
+  /* padding: 10px; */
+}
+
 
 #fcf-form {
   display: flexbox;

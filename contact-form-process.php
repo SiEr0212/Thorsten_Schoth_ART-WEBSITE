@@ -1,3 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACT</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/svg" href="./img/NEWMOON.svg"/>
+    <link rel="stylesheet" href="./CSS/styles.css" />
+</head>
+<body>
+<div class="container-sm">
+      
+      <div class="moons_menu">
+      <a href="./index.html" title="HOME">
+        <img src="./img/BLACKMOON.svg" alt="" id="upper_left" />
+      </a>
+      <a href="./vita.html" title="VITA">
+        <img src="./img/HALFMOONBLACKRIGHT.svg" alt="" id="upper_right" />
+      </a>
+      <a href="./collectibles.html" title="COLLECTIBLES">
+        <img src="./img/HALFMOON.svg" alt="" id="lower_left" />
+      </a>
+      <a href="./contact.html" title="CONTACT">
+        <img src="./img/NEWMOON.svg" alt="" id="lower_right" />
+      </a>
+      </div>
+
+     <div class="page-ubertitle">CONTACT</div>
+
+     <div style="text-align: center" class="collectibles-description"> 
+ 
+    Thank you for contacting me. 
+     </br>
+    I will be in touch with you very soon.
+   </br>
+    
+    </div>
+
+
+
 <?php
 if (isset($_POST['Email'])) {
 
@@ -68,18 +120,14 @@ if (isset($_POST['Email'])) {
 ?>
 
     <!-- include your success message below -->
-    <br>
-    <br>
-
-    <h1 style="text-align:center;">Thank you for contacting me. </h1>
-</br>
-   <h1 style="text-align:center;"> I will be in touch with you very soon.</h1>
-   <br>
    
-   <h2 style="text-align:center;"><a href="./index.html">Back</a></h2>
 
    
 
 <?php
 }
 ?>
+ 
+ </div> 
+</body>
+</html>
