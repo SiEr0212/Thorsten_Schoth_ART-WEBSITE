@@ -28,6 +28,11 @@ body {
     url("../fonts/TrajanPro-Bold.woff") format("woff");
 }
 
+.end-margin{
+/* damit in der mobile Ansicht unten platz ist */
+margin-bottom: 6vh;
+}
+
 #bootstrap_override_1 {
   overflow: hidden;
 }
