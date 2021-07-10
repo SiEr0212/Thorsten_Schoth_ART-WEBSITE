@@ -28,9 +28,9 @@ body {
     url("../fonts/TrajanPro-Bold.woff") format("woff");
 }
 
-.end-margin{
-/* damit in der mobile Ansicht unten platz ist */
-margin-bottom: 6vh;
+.end-margin {
+  /* damit in der mobile Ansicht unten platz ist */
+  margin-bottom: 6vh;
 }
 
 #bootstrap_override_1 {
@@ -283,9 +283,8 @@ margin-bottom: 6vh;
   font-size: 18px;
   font-weight: 600;
   margin-top: 3vh;
- /*  padding: 10px; */
- padding: 8px;
-
+  /*  padding: 10px; */
+  padding: 8px;
 }
 #vita-img-text-right {
   /*  margin-left: 1px; */
@@ -296,7 +295,6 @@ margin-bottom: 6vh;
   margin-top: 40px;
   padding: 50px;
 }
-
 
 /* -------CONTACT-FORM---------------------------- */
 
@@ -539,6 +537,5 @@ input[type="button"].fcf-btn-block {
     max-height: 100vh;
     max-width: 90vw;
     margin-top: 0.5vh;
-    
   }
 }
