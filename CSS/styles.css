@@ -439,6 +439,10 @@ input[type="button"].fcf-btn-block {
   margin-right: 3vw;
 }
 
+#contact-end-margin {
+  margin-bottom: 6vh;
+}
+
 /* ------------------media querys ------------------------------------ */
 
 @media (max-width: 800px) {
