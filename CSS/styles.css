@@ -484,4 +484,9 @@ input[type="button"].fcf-btn-block {
     /* damit in der mobile Ansicht unten platz ist */
     margin-bottom: 5vh;
   }
+
+  .end-margin-collectibles {
+    /* damit in der mobile Ansicht unten platz ist */
+    margin-bottom: 5vh;
+  }
 }
