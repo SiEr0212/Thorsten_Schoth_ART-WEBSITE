@@ -171,9 +171,6 @@ body {
   visibility: hidden;
   opacity: 0;
   z-index: 0;
-
-  /* transition effect. not necessary */
-  /*   transition: all 0s linear */
 }
 
 .img__wrap:hover .img__description {
