@@ -27,7 +27,6 @@ body {
     url("../fonts/TrajanPro-Bold.woff") format("woff");
 }
 
-
 #bootstrap_override_1 {
   overflow: hidden;
 }
@@ -479,7 +478,7 @@ input[type="button"].fcf-btn-block {
     /* damit in der mobile Ansicht unten platz ist */
     margin-bottom: 3vh;
   }
-  
+
   .end-margin-work {
     /* damit in der mobile Ansicht unten platz ist */
     margin-bottom: 5vh;
