@@ -266,7 +266,6 @@ body {
 
 /* -------------------VITA------------------------- */
 
-
 .vita-img {
   max-height: 90vh;
   max-width: 40vw;
@@ -322,13 +321,7 @@ body {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
-  /*  margin-left: 40% */
 
-  /*  box-sizing:initial;
-  width: 0px; */
-  /*   min-width: 40%; */
-
-  /* padding: 10px; */
 }
 
 #fcf-form {
@@ -486,22 +479,6 @@ input[type="button"].fcf-btn-block {
 #bootstrap-overrides #form_margin {
   margin-left: 3vw;
   margin-right: 3vw;
-}
-
-/* -----------------VITA---------------------------------------------- */
-
-.vita-text {
-  /*   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  align-content: center;
-  font-family: Trajan Pro Regular, serif;
-  margin: 5px;
-  padding: 10vh;
-  font-weight: 600;
-  font-size: 2vh;
-  z-index: 3; */
 }
 
 /* ------------------media querys ------------------------------------ */
