@@ -206,20 +206,9 @@ body {
 
 .work-description {
   font-family: Trajan Pro Regular, serif; /* "Cinzel", serif; */
-  /*  padding-left: 8vw;
-  padding-right: 30px; */
-  /*  padding-bottom: 50px; */
-  /* padding: 2%; */
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
-  /*  margin-left: 40% */
-
-  /*  box-sizing:initial;
-  width: 0px; */
-  /*   min-width: 40%; */
-
-  /* padding: 10px; */
 }
 
 #figcaption-style {
