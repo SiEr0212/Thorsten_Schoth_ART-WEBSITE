@@ -182,7 +182,7 @@ body {
 }
 #bootstrap_override_1 .hover-title {
   text-decoration: none;
-  font-family: Trajan Pro Regular, serif; /* "Cinzel", serif; */
+  font-family: Trajan Pro Regular, serif; 
   font-size: 2.6vh;
   font-weight: 600;
   z-index: 0;
@@ -190,7 +190,6 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* padding-top: 3.5vh; */
   transition-delay: 0.4s;
 }
 
