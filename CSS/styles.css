@@ -117,8 +117,6 @@ body {
 #OL-Icon {
   transition: all 0.2s linear;
   z-index: 5;
-
-  /*   width:200px; */
 }
 
 #OL-Icon:hover {
