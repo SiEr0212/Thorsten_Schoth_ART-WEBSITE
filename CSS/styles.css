@@ -484,12 +484,18 @@ input[type="button"].fcf-btn-block {
   }
 
   .end-margin-work {
-    /* damit in der mobile Ansicht unten platz ist */
     margin-bottom: 5vh;
   }
 
   .end-margin-collectibles {
-    /* damit in der mobile Ansicht unten platz ist */
     margin-bottom: 5vh;
+  }
+
+  .end-margin-vita {
+    margin-bottom: 6vh;
+  }
+
+  #center-menu-mobile {
+    margin-top: -9vh;
   }
 }
