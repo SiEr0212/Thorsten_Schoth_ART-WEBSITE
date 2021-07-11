@@ -27,10 +27,6 @@ body {
     url("../fonts/TrajanPro-Bold.woff") format("woff");
 }
 
-.end-margin {
-  /* damit in der mobile Ansicht unten platz ist */
-  margin-bottom: 3vh;
-}
 
 #bootstrap_override_1 {
   overflow: hidden;
@@ -56,7 +52,7 @@ body {
   flex-wrap: nowrap;
   align-items: center;
   align-content: center;
-  font-family: Trajan Pro Regular, serif; 
+  font-family: Trajan Pro Regular, serif;
   margin: 5px;
   padding: 2vh;
   font-weight: 800;
@@ -69,7 +65,7 @@ body {
   flex-wrap: nowrap;
   align-items: center;
   align-content: center;
-  font-family: Trajan Pro Regular, serif; 
+  font-family: Trajan Pro Regular, serif;
   margin: 5px;
   padding: 2vh;
   font-weight: 600;
@@ -478,5 +474,14 @@ input[type="button"].fcf-btn-block {
     max-height: 100vh;
     max-width: 90vw;
     margin-top: 0.5vh;
+  }
+  .end-margin {
+    /* damit in der mobile Ansicht unten platz ist */
+    margin-bottom: 3vh;
+  }
+  
+  .end-margin-work {
+    /* damit in der mobile Ansicht unten platz ist */
+    margin-bottom: 5vh;
   }
 }
