@@ -129,7 +129,6 @@ body {
 #OR-Icon {
   transition: all 0.2s linear;
   z-index: 5;
-  /* width: 200px; */
 }
 #OR-Icon:hover {
   transform: translate(10px, -10px);
@@ -139,7 +138,6 @@ body {
 #UL-Icon {
   transition: all 0.2s linear;
   z-index: 5;
-  /*  width:200px; */
 }
 #UL-Icon:hover {
   transform: translate(-10px, 10px);
@@ -171,7 +169,7 @@ body {
 }
 #bootstrap_override_1 .hover-title {
   text-decoration: none;
-  font-family: Trajan Pro Regular, serif; 
+  font-family: Trajan Pro Regular, serif;
   font-size: 2.6vh;
   font-weight: 600;
   z-index: 0;
@@ -290,7 +288,6 @@ body {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
-
 }
 
 #fcf-form {
