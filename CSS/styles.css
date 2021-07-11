@@ -237,8 +237,6 @@ body {
 }
 
 #SO6-EIS-PIC {
-  /*  width: 60vw;
-  object-fit: cover; */
   height: 80vh;
   border: 1px solid black;
   object-fit: contain;
