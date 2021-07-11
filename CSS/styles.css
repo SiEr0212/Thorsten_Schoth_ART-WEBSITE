@@ -149,7 +149,6 @@ body {
 #UR-Icon {
   transition: all 0.2s linear;
   z-index: 5;
-  /*  width:200px; */
 }
 #UR-Icon:hover {
   transform: translate(10px, 10px);
