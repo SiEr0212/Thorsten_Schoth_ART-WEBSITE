@@ -54,7 +54,7 @@
 if (isset($_POST['Email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "simonertel@gmx.de";
+    $email_to = "t.schoth@freenet.de";
     $email_subject = "Contact Form from thorsten-schoth.de";
 
     function problem($error)
