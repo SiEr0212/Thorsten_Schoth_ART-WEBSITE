@@ -39,6 +39,7 @@ body {
   display: block;
   margin: 0 auto;
 }
+
 #da666 {
   display: block;
   margin: 0 auto;
@@ -58,6 +59,7 @@ body {
   font-size: 3.4vh;
   z-index: 3;
 }
+
 .page-ubertitle {
   display: flex;
   flex-direction: column;
@@ -71,10 +73,12 @@ body {
   font-size: 3.4vh;
   z-index: 3;
 }
+
 /* ----------------Moons---------------------------- */
 .moons_menu {
   display: flex;
 }
+
 #upper_left {
   position: fixed;
   top: 0;
@@ -82,6 +86,7 @@ body {
   padding: auto;
   margin: 15px;
 }
+
 #upper_right {
   position: fixed;
   top: 0;
@@ -89,12 +94,14 @@ body {
   padding: auto;
   margin: 15px;
 }
+
 #lower_left {
   position: fixed;
   bottom: 0%;
   left: 0;
   margin: 15px;
 }
+
 #lower_right {
   bottom: 0%;
   right: 0%;
@@ -122,6 +129,7 @@ body {
   transition: all 0.2s linear;
   z-index: 5;
 }
+
 #OR-Icon:hover {
   transform: translate(10px, -10px);
   opacity: 50%;
@@ -131,6 +139,7 @@ body {
   transition: all 0.2s linear;
   z-index: 5;
 }
+
 #UL-Icon:hover {
   transform: translate(-10px, 10px);
   opacity: 50%;
@@ -140,13 +149,14 @@ body {
   transition: all 0.2s linear;
   z-index: 5;
 }
+
 #UR-Icon:hover {
   transform: translate(10px, 10px);
   opacity: 50%;
 }
 
-/* ---------------------------------------------------------- */
 
+/* ---------------------------------------------------------- */
 .img__description {
   font-size: 2rem;
   color: black;
@@ -159,6 +169,7 @@ body {
   visibility: visible;
   opacity: 1;
 }
+
 #bootstrap_override_1 .hover-title {
   text-decoration: none;
   font-family: Trajan Pro Regular, serif;
@@ -182,7 +193,8 @@ body {
 }
 
 .work-description {
-  font-family: Trajan Pro Regular, serif; /* "Cinzel", serif; */
+  font-family: Trajan Pro Regular, serif;
+  /* "Cinzel", serif; */
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -196,6 +208,10 @@ body {
   margin-bottom: 40px;
 }
 
+#row-with-3-works {
+  padding-right: 0;
+  padding-left: 0;
+}
 
 /* ------------------Collectibles--------------- */
 
@@ -210,7 +226,8 @@ body {
 }
 
 .collectibles-description {
-  font-family: Trajan Pro Regular, serif; /* "Cinzel", serif; */
+  font-family: Trajan Pro Regular, serif;
+  /* "Cinzel", serif; */
   padding: 45px;
   font-size: 20px;
   font-weight: 600;
@@ -243,6 +260,7 @@ body {
   font-size: 20px;
   font-weight: 600;
 }
+
 .vita-text {
   font-family: Trajan Pro Regular, serif;
   font-size: 18px;
@@ -250,6 +268,7 @@ body {
   margin-top: 4vh;
   padding: 8px;
 }
+
 /* #vita-img-text-right {
    margin-left: 1px;
 }
@@ -268,7 +287,8 @@ body {
   flex-wrap: nowrap;
   align-items: center;
   align-content: center;
-  font-family: Trajan Pro Regular, serif; /* "Cinzel", serif; */
+  font-family: Trajan Pro Regular, serif;
+  /* "Cinzel", serif; */
   margin: 5px;
   padding: 2vh;
   font-weight: 600;
@@ -277,7 +297,8 @@ body {
 }
 
 .contact-form-text {
-  font-family: Trajan Pro Regular, serif; /* "Cinzel", serif; */
+  font-family: Trajan Pro Regular, serif;
+  /* "Cinzel", serif; */
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -289,7 +310,8 @@ body {
 
 .fcf-body {
   margin: 0;
-  font-family: Trajan Pro Regular, serif; /* "Cinzel", serif */
+  font-family: Trajan Pro Regular, serif;
+  /* "Cinzel", serif */
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5;
@@ -413,7 +435,7 @@ label.fcf-label {
 }
 
 .fcf-btn-lg,
-.fcf-btn-group-lg > .fcf-btn {
+.fcf-btn-group-lg>.fcf-btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -425,7 +447,7 @@ label.fcf-label {
   width: 100%;
 }
 
-.fcf-btn-block + .fcf-btn-block {
+.fcf-btn-block+.fcf-btn-block {
   margin-top: 0.5rem;
 }
 
@@ -445,12 +467,33 @@ input[type="button"].fcf-btn-block {
 }
 
 /* ------------------media querys ------------------------------------ */
+@media not all and (max-width: 800px) {
+/* -----------------------makes image description as large as images-------------------------------- */
+.figure .image {
+  width: 100%;
+}
+
+.figure {
+  text-align: center;
+  display: table;
+  max-width: 30%; /* demo; set some amount (px or %) if you can */
+  margin: 10px auto; /* not needed unless you want centered */
+}
+}
 
 @media (max-width: 800px) {
+
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
+
+   
+  
+
+ 
+ 
   #live_by_the_sun-title {
     margin-top: 14vw;
   }
+
   .page-ubertitle {
     margin-top: 14vw;
   }
@@ -479,6 +522,7 @@ input[type="button"].fcf-btn-block {
     max-width: 90vw;
     margin-top: 0.5vh;
   }
+
   .end-margin {
     /* damit in der mobile Ansicht unten platz ist */
     margin-bottom: 3vh;
